@@ -63,6 +63,8 @@ const Home: NextPage = () => {
               },
             ]}
           ></CardContainer>
+          <br></br>
+          <br></br>
           <p>
             Forked with ❤️ from{' '}
             <a
