@@ -63,6 +63,17 @@ const Home: NextPage = () => {
               },
             ]}
           ></CardContainer>
+          <p>
+            Forked with ❤️ from{' '}
+            <a
+              href="https://github.com/lukso-network/tools-erc725-inspect"
+              target="_blank"
+              rel="noreferrer"
+              className="home-link mr-1"
+            >
+              Lukso ERC725 Tools Inspector
+            </a>
+          </p>
         </div>
       </div>
     </>
