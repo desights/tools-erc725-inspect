@@ -15,6 +15,9 @@ import LSP9DataKeys from '@desights/erc725.js/schemas/LSP9Vault.json';
 import LSP10DataKeys from '@desights/erc725.js/schemas/LSP10ReceivedVaults.json';
 import LSP12DataKeys from '@desights/erc725.js/schemas/LSP12IssuedAssets.json';
 import LSP17DataKeys from '@desights/erc725.js/schemas/LSP17ContractExtension.json';
+import Registry from '@desights/erc725.js/schemas/Registry.json';
+import OrganisationProfile from '@desights/erc725.js/schemas/OrganisationProfile.json';
+import UserProfile from '@desights/erc725.js/schemas/UserProfile.json';
 
 import { checkInterface, getData } from '../utils/web3';
 import useWeb3 from '../hooks/useWeb3';
@@ -23,6 +26,9 @@ import SampleAddressInput from '../components/SampleAddressInput/SampleAddressIn
 import { SAMPLE_ADDRESS } from '../constants';
 
 const dataKeyList = [
+  ...Registry.map((key) => ({ name: key.name, key: key.key, icon: '📒' })),
+  ...OrganisationProfile.map((key) => ({ name: key.name, key: key.key, icon: '🏢' })),
+  ...UserProfile.map((key) => ({ name: key.name, key: key.key, icon: '👤' })),
   ...LSP1DataKeys.map((key) => ({ name: key.name, key: key.key, icon: '📢' })),
   ...LSP3DataKeys.map((key) => ({ name: key.name, key: key.key, icon: '👤' })),
   ...LSP4DataKeys.map((key) => ({ name: key.name, key: key.key, icon: '🔵' })),

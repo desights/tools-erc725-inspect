@@ -21,7 +21,7 @@ const NetworksProvider = ({ children }: { children: React.ReactNode }) => {
     // Default Network
     name: 'TESTNET',
     rpc: RPC_URL_TESTNET,
-    imgUrl: '/lukso.png',
+    imgUrl: '/desights.png',
   });
 
   return (
