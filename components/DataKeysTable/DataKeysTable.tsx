@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { ERC725JSONSchema } from '@erc725/erc725.js';
+import { ERC725JSONSchema } from '@desights/erc725.js';
 
 import AddressButtons from '../AddressButtons';
 import ValueTypeDecoder from '../ValueTypeDecoder';

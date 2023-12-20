@@ -2,13 +2,13 @@
  * @author Hugo Masclet <git@hugom.xyz>
  */
 import React, { useState, useEffect } from 'react';
-import { ERC725, ERC725JSONSchema } from '@erc725/erc725.js';
+import { ERC725, ERC725JSONSchema } from '@desights/erc725.js';
 import AddressButtons from '../AddressButtons';
 import { LUKSO_IPFS_BASE_URL } from '../../globals';
 
 import useWeb3 from '../../hooks/useWeb3';
 
-import { DecodeDataOutput } from '@erc725/erc725.js/build/main/src/types/decodeData';
+import { DecodeDataOutput } from '@desights/erc725.js/build/main/src/types/decodeData';
 
 interface Props {
   address: string;

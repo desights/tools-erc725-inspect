@@ -1,7 +1,7 @@
 import schemas from './utils/schemas';
 import valueContents from './utils/valueContents';
 import { useEffect, useState } from 'react';
-import { ERC725 } from '@erc725/erc725.js';
+import { ERC725 } from '@desights/erc725.js';
 import errorsDict from './utils/errorsDict';
 
 interface IJSONURLEncode {
@@ -237,7 +237,7 @@ const Lsp2Coder: React.FC = () => {
           </a>
           functions of the
           <a
-            href="https://www.npmjs.com/package/@erc725/erc725.js"
+            href="https://www.npmjs.com/package/@desights/erc725.js"
             target="_blank"
             rel="noreferrer"
             className="mx-1"

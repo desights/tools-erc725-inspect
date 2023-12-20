@@ -255,7 +255,7 @@ const Home: NextPage = () => {
             </a>
             function of the
             <a
-              href="https://www.npmjs.com/package/@erc725/erc725.js"
+              href="https://www.npmjs.com/package/@desights/erc725.js"
               target="_blank"
               rel="noreferrer"
               className="mx-1"

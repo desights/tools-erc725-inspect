@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import { useState } from 'react';
-import ERC725 from '@erc725/erc725.js';
+import ERC725 from '@desights/erc725.js';
 import PermissionsBtns from '../PermissionsBtns';
 
 const KeyManagerPermissions: React.FC = () => {
@@ -72,7 +72,7 @@ const KeyManagerPermissions: React.FC = () => {
           </a>{' '}
           function of the{' '}
           <a
-            href="https://www.npmjs.com/package/@erc725/erc725.js"
+            href="https://www.npmjs.com/package/@desights/erc725.js"
             target="_blank"
             rel="noreferrer"
           >

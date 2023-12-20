@@ -1,4 +1,4 @@
-import { ERC725JSONSchema } from '@erc725/erc725.js';
+import { ERC725JSONSchema } from '@desights/erc725.js';
 
 const schemas: ERC725JSONSchema[] = [
   {

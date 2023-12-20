@@ -3,7 +3,7 @@ import Head from 'next/head';
 import packageJson from '../package.json';
 import CardContainer from '../components/CardContainer';
 
-const ERC725_JS_VERSION = packageJson.dependencies['@erc725/erc725.js'];
+const ERC725_JS_VERSION = packageJson.dependencies['@desights/erc725.js'];
 const LSP_SMART_CONTRACTS_VERSION =
   packageJson.dependencies['@lukso/lsp-smart-contracts'];
 
