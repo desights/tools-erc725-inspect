@@ -14,9 +14,9 @@
     "url": "https://github.com/hugoo"
   },
   "dependencies": {
+    "@desights/erc725.js": "^0.17.2",
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
-    "@desights/erc725.js": "^0.17.2",
     "@lukso/lsp-factory.js": "^3.2.1",
     "@lukso/lsp-smart-contracts": "^0.14.0",
     "i": "^0.3.7",
