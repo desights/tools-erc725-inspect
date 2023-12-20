@@ -63,56 +63,6 @@ const Home: NextPage = () => {
               },
             ]}
           ></CardContainer>
-          <h3 className="title is-3">External Developer Resources</h3>
-          <p>
-            Start integrating{' '}
-            <a
-              href="https://docs.lukso.tech/standards/lsp-background/erc725"
-              target="_blank"
-              rel="noreferrer"
-              className="home-link mr-1"
-            >
-              ERC725
-            </a>
-            and
-            <a
-              href="https://docs.lukso.tech/standards/introduction"
-              target="_blank"
-              rel="noreferrer"
-              className="home-link mx-1"
-            >
-              LSP
-            </a>
-            smart contracts into your own projects by diving into the following
-            apps and libraries:
-          </p>
-          <CardContainer
-            cardData={[
-              {
-                title: 'up-test-dapp',
-                description:
-                  'The UP Test dApp demonstrates the deployment and interactions with Universal Profiles and LSPs. You can create token, edit profile storage, connect and sign messages, or build transactions.',
-                link: 'https://up-test-dapp.lukso.tech/',
-                isExternal: true,
-              },
-              {
-                title: 'erc725.js',
-                description:
-                  'The ERC725 library allows seamless interaction of smart contract schemas and contracts to simpify ERC725 integration.',
-                link: 'https://docs.lukso.tech/tools/erc725js/getting-started',
-                isExternal: true,
-                version: ERC725_JS_VERSION,
-              },
-              {
-                title: 'lsp-smart-contracts',
-                description:
-                  'The LSP library includes Solidity code, JSON ABIs, and constants, to streamline your LSP smart contract development.',
-                link: 'https://docs.lukso.tech/tools/lsp-smart-contracts/getting-started',
-                isExternal: true,
-                version: LSP_SMART_CONTRACTS_VERSION,
-              },
-            ]}
-          ></CardContainer>
         </div>
       </div>
     </>
