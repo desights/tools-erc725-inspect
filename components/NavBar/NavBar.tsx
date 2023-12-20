@@ -96,7 +96,7 @@ const NavBar: React.FC = () => {
           <div className="navbar-item">
             <div className="buttons">
               <a
-                href="https://docs.lukso.tech/"
+                href="https://docs.desights.ai/"
                 className="button"
                 target="_blank"
                 rel="noreferrer"
@@ -105,11 +105,11 @@ const NavBar: React.FC = () => {
               </a>
               <a
                 className="button"
-                href="https://github.com/lukso-network/tools-erc725-inspect"
+                href="https://discord.com/invite/enZFdaFMpN"
                 target="_blank"
                 rel="noreferrer"
               >
-                GITHUB ↗
+                DISCORD ↗
               </a>
             </div>
           </div>
