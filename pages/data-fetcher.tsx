@@ -27,7 +27,11 @@ import { SAMPLE_ADDRESS } from '../constants';
 
 const dataKeyList = [
   ...Registry.map((key) => ({ name: key.name, key: key.key, icon: '📒' })),
-  ...OrganisationProfile.map((key) => ({ name: key.name, key: key.key, icon: '🏢' })),
+  ...OrganisationProfile.map((key) => ({
+    name: key.name,
+    key: key.key,
+    icon: '🏢',
+  })),
   ...UserProfile.map((key) => ({ name: key.name, key: key.key, icon: '👤' })),
   ...LSP1DataKeys.map((key) => ({ name: key.name, key: key.key, icon: '📢' })),
   ...LSP3DataKeys.map((key) => ({ name: key.name, key: key.key, icon: '👤' })),
